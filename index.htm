@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Satisfy&display=swap"
+      rel="stylesheet"
+    />
+    <title>Magic Box</title>
+  </head>
+  <body>
+    <h1 class="boxTitle">Magic Box</h1>
+    <div class="maindiv">
+      <textarea id="magicboxTextArea" class="box"></textarea>
+      <div class="buttonContainer">
+        <button class="magicButton" onclick="clearBtn()">Clear</button>
+        <button class="magicButton" onclick="toggleCase()">
+          Convet Letter Case
+        </button>
+        <button class="magicButton" onclick="sortText()">Sort</button>
+        <button class="magicButton" onclick="randomPostionText()">
+          Random
+        </button>
+        <button class="magicButton" onclick="reverseText()">Reverse</button>
+        <button class="magicButton" onclick="addNumber()">Add nuumber</button>
+      </div>
+    </div>
+    <script src="./magicbox.js"></script>
+  </body>
+</html>

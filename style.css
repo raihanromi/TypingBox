@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Kode Mono", monospace;
+  }  
+  
+  .boxTitle {
+    text-align: center;
+    margin: 20px 0;
+    font-weight: 700;
+  }
+  
+  .maindiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .box {
+    width: 800px;
+    height: 500px;
+    outline: none;
+    border: 2px solid gray;
+    background-color: rgb(193, 214, 214);
+    padding: 10px;
+    resize: none;
+    border-radius: 15px;
+    box-sizing: border-box;
+    font-size: 20px;
+    color:black;
+  }
+  
+  .buttonContainer {
+    padding-top: 20px;
+  }
+  
+  .magicButton {
+    margin: 5px;
+    padding: 10px;
+  }
+  
